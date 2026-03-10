@@ -92,7 +92,7 @@ export default function Services() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
           <div className="max-w-2xl">
             <span className="text-spa-olive uppercase tracking-[0.4em] text-[10px] font-bold mb-4 block">Excelencia en Estética en Medellín</span>
-            <h2 className="text-5xl md:text-8xl font-serif leading-tight">Nuestros Servicios</h2>
+            <h2 className="text-4xl md:text-8xl font-serif leading-tight">Nuestros Servicios</h2>
           </div>
           <div className="hidden md:block w-px h-32 bg-spa-olive/20"></div>
           <p className="text-spa-ink/60 max-w-xs text-sm leading-relaxed italic font-serif">

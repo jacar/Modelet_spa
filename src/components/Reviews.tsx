@@ -53,7 +53,7 @@ export default function Reviews() {
             <Quote size={120} />
           </div>
 
-          <div className="relative h-[400px] md:h-[300px] flex items-center justify-center">
+          <div className="relative min-h-[450px] md:min-h-[300px] flex items-center justify-center">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentIndex}

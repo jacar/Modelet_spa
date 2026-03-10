@@ -34,7 +34,7 @@ export default function Protocols() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-24">
           <span className="text-spa-olive uppercase tracking-[0.4em] text-[10px] font-bold mb-4 block">Metodología Modelet</span>
-          <h2 className="text-5xl md:text-7xl font-serif mb-8">Protocolos de Excelencia</h2>
+          <h2 className="text-4xl md:text-7xl font-serif mb-8">Protocolos de Excelencia</h2>
           <p className="text-spa-ink/60 max-w-2xl mx-auto text-lg leading-relaxed">
             Cada tratamiento en Modelet Spa sigue un rigor clínico diseñado para garantizar seguridad, eficacia y una experiencia transformadora.
           </p>

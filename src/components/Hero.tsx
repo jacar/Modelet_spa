@@ -104,25 +104,25 @@ export default function Hero() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <span className="block text-white/80 uppercase tracking-[0.4em] text-xs mb-6">
+            <span className="block text-white/80 uppercase tracking-[0.2em] md:tracking-[0.4em] text-[10px] md:text-xs mb-6">
               {slides[currentSlide].tagline}
             </span>
-            <h1 className="text-white text-6xl md:text-9xl font-serif leading-none mb-4">
+            <h1 className="text-white text-4xl sm:text-5xl md:text-9xl font-serif leading-tight md:leading-none mb-4 px-4">
               {slides[currentSlide].title}
             </h1>
-            <p className="text-white/60 uppercase tracking-[0.5em] text-[10px] md:text-xs font-bold mb-12">
+            <p className="text-white/60 uppercase tracking-[0.2em] md:tracking-[0.5em] text-[9px] md:text-xs font-bold mb-12 px-4">
               {slides[currentSlide].subtitle}
             </p>
           </motion.div>
         </AnimatePresence>
         
-        <div className="flex justify-center gap-4 mb-12">
+        <div className="flex justify-center gap-2 md:gap-4 mb-12 flex-wrap px-4">
           {slides.map((_, idx) => (
             <button
               key={idx}
               onClick={() => setCurrentSlide(idx)}
-              className={`w-12 h-1 transition-all duration-500 ${
-                currentSlide === idx ? "bg-white w-20" : "bg-white/20"
+              className={`w-6 sm:w-8 md:w-12 h-1 transition-all duration-500 ${
+                currentSlide === idx ? "bg-white w-10 sm:w-12 md:w-20" : "bg-white/20"
               }`}
             />
           ))}

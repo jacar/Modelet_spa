@@ -28,7 +28,7 @@ export default function About() {
 
         <div>
           <span className="uppercase tracking-[0.3em] text-[10px] mb-8 block opacity-60">Nuestra Filosofía</span>
-          <h2 className="text-5xl md:text-6xl mb-10 leading-tight">Ciencia y Estética en Armonía en Medellín.</h2>
+          <h2 className="text-4xl md:text-6xl mb-10 leading-tight">Ciencia y Estética en Armonía en Medellín.</h2>
           <p className="text-lg opacity-80 leading-relaxed mb-8">
             En Modelet Spa, el referente de bienestar en Medellín bajo la dirección de Claudia Ruíz, fusionamos la ciencia de la cosmiatría con la estética avanzada para ofrecerte resultados reales y transformadores. Nuestra filosofía se centra en realzar tu belleza natural a través de protocolos personalizados que combinan tecnología de vanguardia y una trayectoria clínica de 17 años.
           </p>
