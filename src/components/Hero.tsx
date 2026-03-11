@@ -3,22 +3,10 @@ import { useState, useEffect } from "react";
 
 const slides = [
   {
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-1.jpg",
-    tagline: "Tranquilidad Redefinida",
-    title: "Modelet Spa",
-    subtitle: "Claudia Ruíz - Cosmetologa - Cosmiatra"
-  },
-  {
     image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/REDUCFAST.jpg",
     tagline: "Experiencia y Profesionalismo",
-    title: "Estética Avanzada",
+    title: "Tratamiento Reducfast",
     subtitle: "Resultados Reales para tu Bienestar"
-  },
-  {
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-1-1.jpg",
-    tagline: "Tecnología de Vanguardia",
-    title: "Dermapen",
-    subtitle: "Inducción de Colágeno para una Piel Perfecta"
   },
   {
     image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-2.jpg",
@@ -27,22 +15,22 @@ const slides = [
     subtitle: "Tratamiento efectivo para reducir celulitis y grasa localizada"
   },
   {
+    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-1.jpg",
+    tagline: "Tranquilidad Redefinida",
+    title: "Modelet Spa",
+    subtitle: "Claudia Ruíz - Cosmetologa - Cosmiatra"
+  },
+  {
+    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-1-1.jpg",
+    tagline: "Tecnología de Vanguardia",
+    title: "Dermapen",
+    subtitle: "Inducción de Colágeno para una Piel Perfecta"
+  },
+  {
     image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-3.jpg",
     tagline: "Rejuvenecimiento Facial",
     title: "Ácido Hialurónico",
     subtitle: "Volumen y Armonía para tu Rostro"
-  },
-  {
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-4.jpg",
-    tagline: "Perfilamiento Facial",
-    title: "Rino modelación",
-    subtitle: "Armonización nasal sin cirugía"
-  },
-  {
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-5.jpg",
-    tagline: "Estética Facial",
-    title: "Alisamiento Nasal",
-    subtitle: "Define y perfecciona tu perfil"
   },
   {
     image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-6.jpg",

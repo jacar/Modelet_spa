@@ -33,7 +33,7 @@ export default function About() {
             En Modelet Spa, el referente de bienestar en Medellín bajo la dirección de Claudia Ruíz, fusionamos la ciencia de la cosmiatría con la estética avanzada para ofrecerte resultados reales y transformadores. Nuestra filosofía se centra en realzar tu belleza natural a través de protocolos personalizados que combinan tecnología de vanguardia y una trayectoria clínica de 17 años.
           </p>
           <p className="text-lg opacity-80 leading-relaxed mb-12">
-            Desde la armonización facial con ácido hialurónico y rino-modelación, hasta tratamientos corporales de alta precisión como la hidrolipoclasia y Reducfast, cada procedimiento es ejecutado con la maestría y el cuidado que tu cuerpo merece. No solo transformamos tu apariencia, renovamos tu confianza.
+            Desde la armonización facial con ácido hialurónico, hasta tratamientos corporales de alta precisión como la hidrolipoclasia y Reducfast, cada procedimiento es ejecutado con la maestría y el cuidado que tu cuerpo merece. No solo transformamos tu apariencia, renovamos tu confianza.
           </p>
           <button 
             onClick={() => document.getElementById('protocolos')?.scrollIntoView({ behavior: 'smooth' })}

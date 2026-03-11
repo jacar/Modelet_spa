@@ -26,19 +26,14 @@ const facialServices = [
     image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-3.jpg"
   },
   { 
-    name: "Rino modelación", 
-    icon: <Activity size={20} />,
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-4.jpg"
+    name: "Cera", 
+    icon: <Flame size={20} />,
+    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/CERA.png"
   },
   { 
-    name: "Alisamiento Nasal", 
-    icon: <Wind size={20} />,
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-5.jpg"
-  },
-  { 
-    name: "Plasma PRP", 
-    icon: <FlaskConical size={20} />,
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/Diseno-sin-titulo-8.png"
+    name: "Escleroterapia", 
+    icon: <Shield size={20} />,
+    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-7.jpg"
   }
 ];
 
@@ -72,16 +67,6 @@ const corporalServices = [
     name: "Carboxiterapia", 
     icon: <Wind size={20} />,
     image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/Diseno-sin-titulo-7.png"
-  },
-  { 
-    name: "Cera", 
-    icon: <Flame size={20} />,
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/CERA.png"
-  },
-  { 
-    name: "Escleroterapia", 
-    icon: <Shield size={20} />,
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-7.jpg"
   }
 ];
 
