@@ -71,6 +71,7 @@ export default function App() {
                     alt="Experiencia 1" 
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                    />
                    <div className="absolute inset-0 bg-black/20 flex items-end p-12">
                       <h3 className="text-white text-4xl font-serif">La Experiencia</h3>
@@ -82,6 +83,7 @@ export default function App() {
                     alt="Experiencia 3" 
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                   />
                   <div className="absolute inset-0 bg-black/20 flex items-end p-12">
                     <h3 className="text-white text-4xl font-serif">Paz Interior</h3>

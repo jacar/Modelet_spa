@@ -8,7 +8,7 @@ const facialServices = [
   { 
     name: "Limpieza facial (Básica, Profunda)", 
     icon: <Sparkles size={20} />,
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-7.jpg"
+    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/limpieza-facial.jpg"
   },
   { 
     name: "Alta hidratación", 
@@ -117,6 +117,7 @@ export default function Services() {
                       alt={service.name} 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                       referrerPolicy="no-referrer"
+                      loading="lazy"
                     />
                     <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
                   </div>
@@ -162,6 +163,7 @@ export default function Services() {
                       alt={service.name} 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                       referrerPolicy="no-referrer"
+                      loading="lazy"
                     />
                     <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
                   </div>

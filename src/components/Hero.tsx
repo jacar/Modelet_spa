@@ -39,7 +39,7 @@ const slides = [
     subtitle: "Tratamiento integral para una piel firme y tersa"
   },
   {
-    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/modelet-7.jpg",
+    image: "https://www.consultorioodontologicola78.com/wp-content/uploads/2026/03/limpieza-facial.jpg",
     tagline: "Cuidado de la Piel",
     title: "Limpieza Facial",
     subtitle: "Renueva la luminosidad y vida de tu piel"
@@ -58,17 +58,17 @@ export default function Hero() {
 
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-spa-ink">
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="popLayout">
         <motion.div 
           key={currentSlide}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 1.5, ease: "easeInOut" }}
+          transition={{ duration: 1, ease: "easeInOut" }}
           className="absolute inset-0 z-0"
         >
           <motion.div
-            initial={{ scale: 1.1 }}
+            initial={{ scale: 1.05 }}
             animate={{ scale: 1 }}
             transition={{ duration: 6, ease: "linear" }}
             className="w-full h-full"
@@ -78,6 +78,7 @@ export default function Hero() {
               alt="Spa Atmosphere" 
               className="w-full h-full object-cover brightness-[0.6]"
               referrerPolicy="no-referrer"
+              loading="eager"
             />
           </motion.div>
         </motion.div>

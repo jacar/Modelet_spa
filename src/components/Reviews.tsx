@@ -54,7 +54,7 @@ export default function Reviews() {
           </div>
 
           <div className="relative min-h-[450px] md:min-h-[300px] flex items-center justify-center">
-            <AnimatePresence mode="wait">
+            <AnimatePresence mode="popLayout">
               <motion.div
                 key={currentIndex}
                 initial={{ opacity: 0, x: 50 }}
